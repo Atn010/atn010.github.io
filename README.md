@@ -1,10 +1,9 @@
-# atn010.github.io
-please use the minimised version for live website and deposit the un-minimised version here.
+# atn010.github.io / atn010.com
 
-File and Version Used:
+This is my first website build from experience learning in schools and watching my colleague and peers making even more amazing website.
 
-bootstrap.css		- Bootstrap 4 Alpha 4
-bootstrap.js		- Bootstrap 4 Alpha 4
-jquery-3.2.1.js		- JQuery 3.2.1
-tether.css			- Tether 1.4.0
-tether.js			- Tether 1.4.0
+You are free to learn, use or sell the code for the website as it is Licensed under Mozilla Public License 2.0.
+
+Attribution are welcome :)
+
+Hosted in Github
