@@ -62,23 +62,6 @@ body {
 	
 		
 }
-.left-inner-cover{
-		width: 100%;
-	margin-left: 40px;
-	text-align: left;
-	padding-right: 50%;
-	padding-top: 10%;
-	padding-bottom: 10%;
-}
-.right-inner-cover{
-		width: 100%;
-	margin-right: 40px;
-	text-align: right;
-	padding-left: 50%;
-	padding-top: 10%;
-	padding-bottom: 10%;
-			
-}
 
 
 
@@ -128,6 +111,20 @@ body {
 .cover .btn-lg {
   padding: .75rem 1.25rem;
   font-weight: bold;
+}
+
+/*
+ * Body
+ */
+
+.panel {
+    position: absolute;
+    width: 50%;
+	height: 25%;
+    top: 40%;
+	left: 25%;
+    box-sizing: border-box;
+    z-index: 100;
 }
 
 
