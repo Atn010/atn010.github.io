@@ -55,7 +55,7 @@ body {
 }
 
 .inner-cover{
-	width: 1005;
+	width: inherit;
 	padding-top: 20%;
 	padding-bottom: 20%;
 
@@ -106,7 +106,9 @@ body {
  */
 
 .cover {
+	/*
   padding: 0 1.5rem;
+	*/
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
@@ -116,6 +118,20 @@ body {
 /*
  * Body
  */
+/* Create four equal columns that floats next to each other */
+.column {
+    width: 25%;
+    padding: 10px;
+ 
+}
+
+/* Clear floats after the columns */
+.row:after {
+	
+    content: "";
+    display: table;
+    clear: both;
+}
 
 .panel {
     position: absolute;
@@ -125,6 +141,7 @@ body {
 	left: 25%;
     box-sizing: border-box;
     z-index: 100;
+	
 }
 
 
@@ -154,12 +171,13 @@ body {
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
+	  width: 95%;
   }
   /* Handle the widths */
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    width: 90%; /* Must be percentage or pixels for horizontal alignment */
   }
 }
 
@@ -169,4 +187,31 @@ body {
   .cover-container {
     width: 42rem;
   }
+}
+
+@media (max-width: 62em) {
+    .column {
+        width: 50%;
+		align-items: center;
+    }
+	/*.inner-cover{
+		width: inherit;
+	}
+*/
+}
+
+@media (max-width: 40em) {
+    .column {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 30em) {
+    .column {
+    }
+		.row{
+		padding-top: 100px;
+	}
+
 }
