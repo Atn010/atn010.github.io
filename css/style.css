@@ -204,6 +204,10 @@ body {
     .column {
         width: 100%;
     }
+	.row{
+		padding-top: 100px;
+		
+	}
 
 }
 
@@ -211,7 +215,9 @@ body {
     .column {
     }
 		.row{
-		padding-top: 100px;
+		padding-top: 175px;
+		
 	}
+	
 
 }
