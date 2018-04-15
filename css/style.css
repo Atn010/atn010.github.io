@@ -148,9 +148,71 @@ body {
 /*
  * Footer
  */
+ 
+/*  .footer{
+    text-align: center ;
+	position:absolute;
+	bottom: 0 px;
+    width: 100% ;
+	height: 15%;
+    background-color: #000000 ;
+}
+
+.footer:after {
+	
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footerItems{
+    width: 25%;
+    padding: 10px;
+} */
 
 .mastfoot {
   color: rgba(255,255,255,.5);
+}
+
+
+/*
+*
+* A test Premade CSS for Footer
+*/
+
+footer {
+	background: #333333;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: arial;
+}
+.footerLinks {
+   text-align: center;
+}
+.footerLinks ul {
+	padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+.footerLinks li {
+	display: inline;
+}
+.footerLinks a {
+	color: #d9d9d9;
+	text-decoration: none;
+	font-size: 13px;
+}
+.copyright {
+    text-align: center;
+}
+
+.copyright p {
+	margin: 0;
+	color: #b3b3b3;
+	font-size: 11px;
 }
 
 
@@ -214,7 +276,7 @@ body {
 @media (max-width: 30em) {
     .column {
     }
-		.row{
+	.row{
 		padding-top: 175px;
 		
 	}
